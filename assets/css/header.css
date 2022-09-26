@@ -1,0 +1,26 @@
+.acessibilidade{background-color:#efefef;}
+.acessibilidade .listas{display: flex; justify-content: space-between;}
+.acessibilidade .listas ul{padding:0px;} 
+.acessibilidade .listas .itens-acessibilidade,
+.acessibilidade .listas .ir-para{display: flex; list-style-type: none; align-items: center;margin: 0;}
+.acessibilidade .listas .itens-acessibilidade li a,
+.acessibilidade .listas .ir-para li.ir {border-top: 4px solid #efefef;margin-top: 0px;}
+.acessibilidade .listas .ir-para .ir{font-size: 12px;color: #5b5b5b;}
+.acessibilidade .listas .ir-para .ir,
+.acessibilidade .listas .itens-acessibilidade li a{font-size:11px;color:#5b5b5b;font-family:Roboto;font-weight:500;padding: 12px 10px 11px 0;letter-spacing:.4px}
+.acessibilidade .listas .itens-acessibilidade .ic-handtalk,
+.acessibilidade .listas .itens-acessibilidade .ic-contraste{cursor: pointer;}
+.acessibilidade .listas .ir-para li a{font-size:11px;color:#5b5b5b;font-weight:500;margin-left:16px;text-decoration:underline}
+.acessibilidade .listas .ir-para{display: flex; align-items: center;}  
+.acessibilidade .listas .itens-acessibilidade li.btn-fonts {background-color: white;border-radius: 8px;height: 28px;margin-right: 10px;}
+.acessibilidade .listas .itens-acessibilidade li.btn-fonts button {background: transparent}
+.acessibilidade .listas .itens-acessibilidade li.btn-fonts button:first-child{border-radius: 0;background: transparent;}
+
+@media (max-width: 768px){
+    .acessibilidade .listas{width: 100%;}
+    .acessibilidade .listas .ir-para {display: none;}
+    .acessibilidade .listas .itens-acessibilidade{justify-content: space-between; width: 100%;padding: 8px 0;}
+    .acessibilidade .listas .itens-acessibilidade  li a { padding: inherit;}
+    .acessibilidade .listas .itens-acessibilidade li.btn-fonts{margin-right: 0px;}
+    .acessibilidade .listas .itens-acessibilidade .item-acessibilidade {display: none;}
+}

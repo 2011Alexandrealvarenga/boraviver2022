@@ -8,6 +8,7 @@
 
 </head>
 <body>
-    header
+    <?php get_template_part('template-parts/acessibility') ?>
+ 
 </body>
 </html>
