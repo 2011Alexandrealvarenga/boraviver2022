@@ -7,6 +7,7 @@
     <title>Document</title>
     <?php wp_head(); ?>
 </head>
-<body>
+<!-- <script rel="preconnect" src="https://www.tokiomarine.com.br/wp-content/themes/tokiomarine/js/jquery-3.5.1.min.js"></script> -->
+<body class="header-navbar">
     <?php get_template_part('template-parts/acessibility') ?>
  
