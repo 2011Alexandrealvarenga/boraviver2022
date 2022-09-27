@@ -1,5 +1,4 @@
-
-<section class="acessibilidade">
+<!-- <section class="acessibilidade">
     <div class="container">
         <div class="listas">
             <ul class="itens-acessibilidade">
@@ -32,4 +31,4 @@
             </ul>
         </div>
     </div>
-</section>
+</section> -->
