@@ -9,5 +9,9 @@
 </head>
 <!-- <script rel="preconnect" src="https://www.tokiomarine.com.br/wp-content/themes/tokiomarine/js/jquery-3.5.1.min.js"></script> -->
 <body class="header-navbar">
-    <?php get_template_part('template-parts/acessibility') ?>
- 
+    <header>
+            <?php get_template_part('template-parts/acessibility') ?>
+            <?php get_template_part('template-parts/menu') ?>    
+            
+    </header>
+

@@ -1,3 +1,4 @@
 # boraviver2022
 
-Blog 
+cores
+#efefef 
