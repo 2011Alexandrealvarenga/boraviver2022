@@ -1,5 +1,10 @@
-/* carousel home */
-
+/* carousel home esquerda */
+.carousel-banner{
+    display: flex;
+}
+.carousel-left{
+    width: 50%;
+}
 .carousel .carousel-inner .carousel-item{
     height: 360px;
 }
@@ -11,5 +16,23 @@
     padding: 10px;
     margin: 0;
 }
-
+/* carousel home direita */
+.carousel-right{
+    width: 50%;
+}
+.carousel-right .carousel-content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.carousel-right .carousel-content .item{
+    width: 270px;
+    height: 180px;
+    background: lightblue;
+    border: 1px solid red;
+}
+.carousel-right .carousel-content .item .subtitle{
+    font-size: 14px;
+}
 /* 270 x 180 */
+
