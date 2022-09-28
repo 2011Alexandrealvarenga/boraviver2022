@@ -42,6 +42,7 @@ jQuery(document).ready(function(){
         });
     }
     $('#contraste').click(function(){ $('a, li, p, h1, h2, h3, h4, h5, h6, span, body, svg, nav, .card, .duvidas, .indicator, button .principal-cards ').toggleClass('fundo svg-bg ::placeholder');})
-
+    
+   
 
 })
