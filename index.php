@@ -6,7 +6,7 @@
                 <?php get_template_part('template-parts/home/carousel-left') ?> 
             </div>
             <div class="col-6">
-                itens direita
+                <!-- <?php get_template_part('template-parts/home/carousel-right') ?>  -->
             </div>
         </div>
     </div>
