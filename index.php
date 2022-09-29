@@ -30,7 +30,18 @@
                     <?php get_template_part('template-parts/resume-posts') ;?> 
                 </div>
                 <div class="col-3">
-                    col 3
+                    <?php
+                    if (have_posts()) :
+                        while (have_posts()) : the_post();
+                        ?>
+                        <a href="<?php the_permalink(); ?>">
+                            <?php the_title(); ?>
+                        </a>
+                    <?php endwhile; else : ?>
+                        <article>
+                            <h2><?php _e('Sorry, nothing to display.', 'html5blank'); ?></h2>
+                        </article>
+                    <?php endif; ?>
                 </div>
             </div>
         </div>

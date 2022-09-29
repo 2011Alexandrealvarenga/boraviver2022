@@ -1,0 +1,7 @@
+.content-img {
+    display: grid;
+    justify-items: center;
+}
+.content-img img {
+    width: 70%;
+}
