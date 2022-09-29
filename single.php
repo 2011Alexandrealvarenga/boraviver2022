@@ -34,6 +34,9 @@
                         </div>
                     </div>
                 </div>
+                <div class="related-post">
+                    
+                </div>
             </div>
             <div class="col-3">
                 sidebar
