@@ -23,10 +23,10 @@ hr.line {
 .resume-post .content h3.h3title {
     font-size: 20px;
 } 
-.resume-post .content .description,
-.resume-post .content .category,
-.resume-post .content .date,
-.resume-post .content .author {
+.resume-post .content .creator .description,
+.resume-post .content .creator .category,
+.resume-post .content .creator .date,
+.resume-post .content .creator .author {
     font-size: 14px;
 }
 .resume-post .content .creator .category,

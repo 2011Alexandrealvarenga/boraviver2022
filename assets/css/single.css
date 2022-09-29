@@ -5,3 +5,33 @@
 .content-img img {
     width: 70%;
 }
+
+.single .creator .description,
+.single .creator .category,
+.single .creator .date,
+.single .creator .author {
+    font-size: 14px;
+}
+.single .creator .category,
+.single .creator .date,
+.single .creator .author {
+    margin-right: 16px;
+}
+.single .about-author .align{
+    display: flex;
+}
+.single .about-author .align img {
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.single .about-author .align .desc {
+    margin-left: 16px;
+}
+.single .about-author .author {
+    font-size: 24px;
+}
+.single .about-author .name {
+    font-size: 18px;
+}
