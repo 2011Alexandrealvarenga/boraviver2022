@@ -23,11 +23,15 @@
     </section>
     <section class="resume-post">
         <div class="container">
-            <div class="col-9">
-                <?php get_template_part('template-parts/resume-posts') ;?> 
-            </div>
-            <div class="col-3">
-                col 3
+            <div class="row">
+                <div class="col-9">
+                    <hr class="line">
+                    <h2 class="subtitle">Últimas Notícias</h2>
+                    <?php get_template_part('template-parts/resume-posts') ;?> 
+                </div>
+                <div class="col-3">
+                    col 3
+                </div>
             </div>
         </div>
     </section>

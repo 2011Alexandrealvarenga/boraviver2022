@@ -1,0 +1,41 @@
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+}
+hr {
+    border: 2px solid #efefef;
+    width: 96%;
+}
+hr.line {
+    border: 2px solid red;
+    width: 100px;
+    text-align: left;
+    margin: 0;
+}
+
+/* inicio - last post */
+.resume-post .img-post {
+    height: 180px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.resume-post .content h3.h3title {
+    font-size: 20px;
+}
+.resume-post .content .description,
+.resume-post .content .category,
+.resume-post .content .date,
+.resume-post .content .author {
+    font-size: 14px;
+}
+.resume-post .content .creator .category,
+.resume-post .content .creator .date,
+.resume-post .content .creator .author {
+    margin-right: 16px;
+}
+.resume-post .content .description{
+    position: absolute;
+    bottom: 0;
+}
+/* fim - last post */
