@@ -1,5 +1,5 @@
 <?php 
-function header_css() { 
+function boraviver_2022_header_css() { 
     wp_enqueue_style( 'bootstrap_css', get_template_directory_uri() . '/assets/css/bootstrap.css', array(), '1.1', 'all');
     wp_enqueue_style( 'header_css', get_template_directory_uri() . '/assets/css/header.css', array(), '1.1', 'all');
     wp_enqueue_style( 'global', get_template_directory_uri() . '/assets/css/global.css', array(), '1.1', 'all');
@@ -14,4 +14,4 @@ function header_css() {
     }
     
   }
-  add_action( 'wp_enqueue_scripts', 'header_css', 0);
+  add_action( 'wp_enqueue_scripts', 'boraviver_2022_header_css', 0);

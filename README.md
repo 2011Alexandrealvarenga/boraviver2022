@@ -4,3 +4,4 @@ cores
 #efefef 
 
 linguagem
+utf8
