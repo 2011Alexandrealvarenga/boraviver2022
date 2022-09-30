@@ -34,8 +34,37 @@
                         </div>
                     </div>
                 </div>
-                <div class="related-post">
-                    
+                <div class="related-post mb-5">
+                    <div class="container">
+                        <hr class="line">
+                        <h2 class="subtitle">Categoria</h2>
+                        <div class="faders">
+                            <div class="left"></div>
+                            <div class="right"></div>
+                        </div>
+                        <div class="items">
+                            <div class="entry">
+                                <img src="http://localhost:8080/WP/boraviver/wp-content/uploads/2022/09/download-1.jpg" alt="">
+                                <h4 class="name">titulo</h4>
+                            </div>
+                            <div class="entry">
+                                <img src="http://localhost:8080/WP/boraviver/wp-content/uploads/2022/09/download-1.jpg" alt="">
+                                <h4 class="name">titulo</h4>
+                            </div>
+                            <div class="entry">
+                                <img src="http://localhost:8080/WP/boraviver/wp-content/uploads/2022/09/download-1.jpg" alt="">
+                                <h4 class="name">titulo</h4>
+                            </div>
+                            <div class="entry">
+                                <img src="http://localhost:8080/WP/boraviver/wp-content/uploads/2022/09/download-1.jpg" alt="">
+                                <h4 class="name">titulo</h4>
+                            </div>
+                            <div class="entry">
+                                <img src="http://localhost:8080/WP/boraviver/wp-content/uploads/2022/09/download-1.jpg" alt="">
+                                <h4 class="name">titulo</h4>
+                            </div>                                                                      
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="col-3">
