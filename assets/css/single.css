@@ -135,3 +135,16 @@ h1 {
     left: 0;
     font-size: 20px;
 }
+/* comentarios */
+.single .comments textarea {
+  width: 100%;
+  border: 2px solid #dedede;
+}
+.comments-itens{
+  display: flex;
+  justify-content: space-between;
+}
+.comments-itens input{
+  width: 45%;
+}
+

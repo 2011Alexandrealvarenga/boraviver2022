@@ -38,34 +38,63 @@
                     <div class="container">
                         <hr class="line">
                         <h2 class="subtitle">Categoria</h2>
-                        <div class="faders">
+                        <div class="faders mt-2">
                             <div class="left"></div>
                             <div class="right"></div>
                         </div>
                         <div class="items">
-                            <div class="entry">
-                                <img src="http://localhost:8080/WP/boraviver/wp-content/uploads/2022/09/download-1.jpg" alt="">
-                                <h4 class="name">titulo</h4>
-                            </div>
-                            <div class="entry">
-                                <img src="http://localhost:8080/WP/boraviver/wp-content/uploads/2022/09/download-1.jpg" alt="">
-                                <h4 class="name">titulo</h4>
-                            </div>
-                            <div class="entry">
-                                <img src="http://localhost:8080/WP/boraviver/wp-content/uploads/2022/09/download-1.jpg" alt="">
-                                <h4 class="name">titulo</h4>
-                            </div>
-                            <div class="entry">
-                                <img src="http://localhost:8080/WP/boraviver/wp-content/uploads/2022/09/download-1.jpg" alt="">
-                                <h4 class="name">titulo</h4>
-                            </div>
-                            <div class="entry">
-                                <img src="http://localhost:8080/WP/boraviver/wp-content/uploads/2022/09/download-1.jpg" alt="">
-                                <h4 class="name">titulo</h4>
-                            </div>                                                                      
+                            <a href="">
+                                <div class="entry">
+                                    <img src="http://localhost:8080/WP/boraviver/wp-content/uploads/2022/09/download-1.jpg" alt="">
+                                    <h4 class="name">titulo</h4>
+                                </div>
+                            </a>
+                            <a href="">
+                                <div class="entry">
+                                    <img src="http://localhost:8080/WP/boraviver/wp-content/uploads/2022/09/download-1.jpg" alt="">
+                                    <h4 class="name">titulo</h4>
+                                </div>
+                            </a>
+                            <a href="">
+                                <div class="entry">
+                                    <img src="http://localhost:8080/WP/boraviver/wp-content/uploads/2022/09/download-1.jpg" alt="">
+                                    <h4 class="name">titulo</h4>
+                                </div>
+                            </a>
+                            <a href="">
+                                <div class="entry">
+                                    <img src="http://localhost:8080/WP/boraviver/wp-content/uploads/2022/09/download-1.jpg" alt="">
+                                    <h4 class="name">titulo</h4>
+                                </div>
+                            </a>
+                            <a href="">
+                                <div class="entry">
+                                    <img src="http://localhost:8080/WP/boraviver/wp-content/uploads/2022/09/download-1.jpg" alt="">
+                                    <h4 class="name">titulo</h4>
+                                </div>
+                            </a>
+                                                                    
                         </div>
                     </div>
                 </div>
+                <div class="comments">
+                    <hr class="line">
+                    <h2 class="subtitle">Categoria</h2>
+                    <textarea class="mt-2" name="" id="" width="100%" rows="5" placeholder="Insira seu comentario"></textarea>
+                    <div class="comments-itens mt-2">
+                        <input type="text" placeholder="Nome">
+                        <input type="text" placeholder="Email">
+                    </div>
+                    <input class="mt-2" type="submit" value="enviar">
+
+                    <div class="after-comment mt-5">
+                        <div class="data">
+                            <span class="name"><b>Nome:</b> Alexandre Alvarenga <b>Data: </b>02/10/2022</span>
+                        </div>
+                        <textarea name="" id="" width="100%" rows="5" placeholder="comentário"></textarea>
+                    </div>
+                </div>
+
             </div>
             <div class="col-3">
                 sidebar
