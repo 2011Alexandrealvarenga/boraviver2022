@@ -11,6 +11,7 @@ $my_args_banner = array(
         while( $my_query_banner->have_posts() ) : 
         $my_query_banner->the_post(); 
     ?>
+
     <div class="item">
         <?php if ( has_post_thumbnail() ) {
             the_post_thumbnail('home-carousel-right', array('class' => '')) ;
