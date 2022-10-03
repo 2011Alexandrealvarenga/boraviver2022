@@ -12,7 +12,9 @@ hr.line {
     text-align: left;
     margin: 0;
 }
-
+.navbar {
+    padding: 0.5rem 0!important;
+}
 /* inicio - last post */
 .resume-post .img-post {
     height: 180px;

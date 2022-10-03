@@ -44,12 +44,6 @@
                     <?php endif; ?>
                 </div>
             </div>
-            <div class="row mb-5">
-                
-                <h1>Our amazing people</h1>
-
-                    
-            </div>
         </div>
     </section>
 </div>
