@@ -22,7 +22,7 @@ $destaque = array(
     <div class="col-md-3">
       <div class="item">
         <?php if ( has_post_thumbnail() ) {
-          the_post_thumbnail('home-carousel-right', array('class' => '')) ;
+          the_post_thumbnail('highlight-post', array('class' => '')) ;
           } else { ?>
           <img src="" alt="" title=""/>
         <?php } ?>
