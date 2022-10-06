@@ -36,8 +36,25 @@ hr.line {
 .resume-post .content .creator .author {
     margin-right: 16px;
 }
+
 .resume-post .content .description{
     position: absolute;
     bottom: 0;
+}
+.resume-post .content .creator .category{
+    display: flex;
+}
+.resume-post .content .creator .category b{
+    margin-right: 8px;
+}
+
+.resume-post .content .creator .category .post-categories {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+}
+.resume-post .content .creator .category .post-categories li{
+    margin-right: 8px;
 }
 /* fim - last post */

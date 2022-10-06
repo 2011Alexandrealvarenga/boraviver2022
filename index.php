@@ -26,8 +26,8 @@
             <div class="row">
                 <div class="col-9">
                     <hr class="line">
-                    <h2 class="subtitle">Últimas Notícias</h2>
-                    <?php get_template_part('template-parts/resume-posts') ;?> 
+                    <h2 class="subtitle">Mais Notícias</h2>
+                    <?php get_template_part('template-parts/more-posts') ;?> 
                 </div>
                 <div class="col-3">
                     <?php
