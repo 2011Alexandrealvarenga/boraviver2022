@@ -23,19 +23,11 @@
             
             <div class="content">
                 
-                <h3 class="h3title">
-                    <a href="<?php the_permalink();?>">
-                        <?php the_title(); ?>
-                    </a>
-                </h3>
+                <h3 class="h3title"><a href="<?php the_permalink();?>"><?php the_title(); ?></a></h3>
                 <div class="creator">
-                    <span class="author"><b>Autor:</b> 
-                <?php the_author(); ?>
-                </span>
+                    <span class="author"><b>Autor:</b><?php the_author(); ?></span>
                     <span class="date"><b>Data:</b> <?php echo get_the_date( 'd/m/Y' ); ?></span><br>
-                    <span class="category"><b>Categoria:</b> 
-                <?php the_category(); ?>
-                </span>
+                    <span class="category"><b>Categoria:</b><?php the_category(); ?></span>
                 </div>
                 <!-- 
                 <div class="social-media">

@@ -3,7 +3,9 @@
     justify-items: center;
 }
 .content-img img {
-    width: 70%;
+    width: 570px;
+    height: 317px;
+    object-fit: cover;
 }
 
 .single .creator .description,

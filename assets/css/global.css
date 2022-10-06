@@ -41,20 +41,24 @@ hr.line {
     position: absolute;
     bottom: 0;
 }
-.resume-post .content .creator .category{
+.resume-post .content .creator .category,
+.single .creator .category
+{
     display: flex;
 }
-.resume-post .content .creator .category b{
+.resume-post .content .creator .category b,
+.single .creator .category b
+{
     margin-right: 8px;
 }
 
-.resume-post .content .creator .category .post-categories {
+.category .post-categories {
     margin: 0;
     padding: 0;
     list-style-type: none;
     display: flex;
 }
-.resume-post .content .creator .category .post-categories li{
+.category .post-categories li{
     margin-right: 8px;
 }
 /* fim - last post */

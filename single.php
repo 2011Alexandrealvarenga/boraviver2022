@@ -4,7 +4,11 @@
         <div class="row mt-4">
             <div class="col-9">
                 <div class="content-img">
-                    <img src="http://localhost:8080/WP/boraviver/wp-content/uploads/2022/09/download-1.jpg" alt="">
+                    <?php if ( has_post_thumbnail() ) {
+                            the_post_thumbnail('single-post', array('class' => '')) ;
+                        } else { ?>
+                        <img src="" alt="" title=""/>
+                    <?php } ?>
                     <hr class="line mt-4">
                     <h2 class="subtitle">
                         <?php the_title(); ?>
@@ -12,12 +16,12 @@
                 </div>
                 <div class="creator mt-4">
                     <span class="author"><b>Autor:</b> Alexandre Alvarenga</span>
-                    <span class="date"><b>Data:</b> 02/10/1985</span>
-                    <span class="category"><b>Categoria:</b> Biblia</span>
+                    <span class="date"><b>Data:</b> <?php echo get_the_date( 'd/m/Y' ); ?></span>
+                    <span class="category"><b>Categoria:</b><?php the_category(); ?></span>
                 </div>
                 <div class="content-post mt-5">
                     <span>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam deleniti adipisci, praesentium, officiis sint obcaecati beatae ea eos quas dignissimos sed dolorem dicta tenetur eligendi? Commodi dolores non vitae laudantium. Excepturi odio non provident, vero debitis rem autem iste illo laudantium quo eveniet voluptatem aliquid alias facere nostrum repellendus placeat eos! Numquam et quia vero, nobis corporis quaerat quis accusamus possimus maxime suscipit accusantium, modi minus. Aliquid sint deleniti quo amet unde accusamus voluptatibus, repellat quisquam ea numquam reiciendis officiis quod non officia repudiandae libero incidunt quaerat nesciunt, dicta eum cupiditate autem laboriosam tempore? Adipisci neque cum nostrum quisquam aut eum? Id, unde blanditiis. Itaque voluptates eaque voluptatibus laboriosam necessitatibus rerum in laudantium ipsa, distinctio aut veniam doloribus tenetur dolores doloremque repellendus velit nisi repudiandae? Et molestias vero dolores consectetur adipisci illum? Eos aliquid corrupti ullam fuga ut quaerat necessitatibus nihil molestias, eum, tempora, harum non ipsum esse! Voluptatum, neque.
+                        <?php the_content(); ?>
                     </span>
                 </div>
                 <div class="about-author mt-4">
