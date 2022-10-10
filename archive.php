@@ -5,7 +5,10 @@
             <div class="col-9">
                 <hr class="line">
                 <h2 class="subtitle"><?php the_archive_title(); ?></h2>
-                <?php get_template_part('template-parts/more-posts') ;?> 
+                <div class="row">
+
+                    <?php get_template_part('template-parts/more-posts') ;?> 
+                </div>
             </div>
             <div class="col-3">
                 <?php

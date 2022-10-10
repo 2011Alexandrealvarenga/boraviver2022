@@ -11,3 +11,4 @@ require get_template_directory().'/inc/thumbnail-size.php';
 
 // excerpt
 require get_template_directory().'/inc/excerpt.php';
+

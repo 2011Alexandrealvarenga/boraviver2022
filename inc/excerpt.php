@@ -1,6 +1,6 @@
 <?php 
 
-function get_excerpt(){
+function get_excerpt_title(){
     $excerpt = get_the_content();
     $excerpt = preg_replace(" ([.*?])",'',$excerpt);
     $excerpt = strip_shortcodes($excerpt);
@@ -21,4 +21,13 @@ function get_excerpt_home_more_posts(){
     $excerpt = trim(preg_replace( '/\s+/', ' ', $excerpt));
     $excerpt = $excerpt.'... <a href="'.get_the_permalink().'">Leia mais</a>';
     return $excerpt;
+}
+
+// limitar caracteres
+function limit_title_charc($title){
+	$max = 90;
+	if(strlen($title) > $max) {
+		$title = substr( $title, 0, $max );
+	}
+	return $title;
 }
