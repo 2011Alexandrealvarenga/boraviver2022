@@ -24,7 +24,7 @@
                         <?php the_content(); ?>
                     </span>
                 </div>
-                <div class="about-author mt-4">
+                <!-- <div class="about-author mt-4">
                     <h3 class="author">Sobre o autor</h3>
                     <div class="align mt-2">
                         <img src="http://localhost:8080/WP/boraviver/wp-content/uploads/2022/09/download-1.jpg" alt="">
@@ -38,49 +38,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="related-post mb-5">
-                    <div class="container">
-                        <hr class="line">
-                        <h2 class="subtitle">Categoria</h2>
-                        <div class="faders mt-2">
-                            <div class="left"></div>
-                            <div class="right"></div>
-                        </div>
-                        <div class="items">
-                            <a href="">
-                                <div class="entry">
-                                    <img src="http://localhost:8080/WP/boraviver/wp-content/uploads/2022/09/download-1.jpg" alt="">
-                                    <h4 class="name">titulo</h4>
-                                </div>
-                            </a>
-                            <a href="">
-                                <div class="entry">
-                                    <img src="http://localhost:8080/WP/boraviver/wp-content/uploads/2022/09/download-1.jpg" alt="">
-                                    <h4 class="name">titulo</h4>
-                                </div>
-                            </a>
-                            <a href="">
-                                <div class="entry">
-                                    <img src="http://localhost:8080/WP/boraviver/wp-content/uploads/2022/09/download-1.jpg" alt="">
-                                    <h4 class="name">titulo</h4>
-                                </div>
-                            </a>
-                            <a href="">
-                                <div class="entry">
-                                    <img src="http://localhost:8080/WP/boraviver/wp-content/uploads/2022/09/download-1.jpg" alt="">
-                                    <h4 class="name">titulo</h4>
-                                </div>
-                            </a>
-                            <a href="">
-                                <div class="entry">
-                                    <img src="http://localhost:8080/WP/boraviver/wp-content/uploads/2022/09/download-1.jpg" alt="">
-                                    <h4 class="name">titulo</h4>
-                                </div>
-                            </a>
-                                                                    
-                        </div>
-                    </div>
-                </div>
+                <hr> -->
+                <!-- inicio  -->
+
+                <!-- fim -->
                 <div class="comments">
                     <hr class="line">
                     <h2 class="subtitle">Categoria</h2>
@@ -103,6 +64,9 @@
             <div class="col-3">
                 sidebar
             </div>
+        </div>
+        <div class="row">
+            
         </div>
     </div>
 </section>
