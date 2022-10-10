@@ -62,11 +62,8 @@
 
             </div>
             <div class="col-3">
-                sidebar
+                <?php get_sidebar(); ?>
             </div>
-        </div>
-        <div class="row">
-            
         </div>
     </div>
 </section>
