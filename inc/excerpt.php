@@ -24,6 +24,13 @@ function get_excerpt_home_more_posts(){
 }
 
 // limitar caracteres
+function limit_title_charc_carousel($title){
+	$max = 70;
+	if(strlen($title) > $max) {
+		$title = substr( $title, 0, $max );
+	}
+	return $title;
+}
 function limit_title_charc($title){
 	$max = 90;
 	if(strlen($title) > $max) {

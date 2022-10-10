@@ -18,7 +18,9 @@ $my_args_banner = array(
             } else { ?>
             <img src="" alt="" title=""/>
         <?php } ?>
-        <h2 class="subtitle"><?php the_title(); ?></h2>
+        <h2 class="subtitle">
+            <?php echo limit_title_charc_carousel(get_the_title()); ?>
+        </h2>
 
     </div>
     <?php endwhile; else : ?>
