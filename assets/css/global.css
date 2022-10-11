@@ -2,6 +2,7 @@ h1,h2,h3,h4,h5,h6{
     margin: 0;
     padding: 0;
 }
+body{line-height: inherit!important;}
 hr {
     border: 2px solid #efefef;
     width: 96%;
@@ -12,9 +13,10 @@ hr.line {
     text-align: left;
     margin: 0;
 }
-.navbar {
-    padding: 0.5rem 0!important;
-}
+.navbar { padding: 0.5rem 0!important;}
+img{border-radius: 2px!important;}
+a{color: #000!important;}
+
 /* inicio - last post */
 .resume-post .img-post {
     height: 180px;
@@ -62,3 +64,26 @@ hr.line {
     margin-right: 8px;
 }
 /* fim - last post */
+/* inicio - sidebar */
+.widget-wrapper .widget h2 {
+    font-size: 24px;
+}
+.widget-wrapper .widget ul {
+    padding: 8px 8px 0 8px;
+    margin: 0;
+}
+.widget-wrapper .widget ul li{
+    margin-bottom: 8px;
+}
+.widget-wrapper .widget img {
+    margin-right: 8px;
+}
+.widget-wrapper .widget span.wpp-meta.post-stats {
+    margin-top: 8px;
+}
+.widget-wrapper .widget ul.wp-block-categories {
+    list-style-type: none!important;
+    padding: 8px;
+    margin: 0;
+}
+/* fim - sidebar */

@@ -11,18 +11,21 @@ $my_args_banner = array(
         while( $my_query_banner->have_posts() ) : 
         $my_query_banner->the_post(); 
     ?>
+        <div class="item">
+            <a href="<?php the_permalink() ?>">     
+            <?php if ( has_post_thumbnail() ) {
+                the_post_thumbnail('home-carousel-right', array('class' => '')) ;
+                } else { ?>
+                <img src="" alt="" title=""/>
+            <?php } ?>
+            <div class="carousel-back">
+                <h2 class="subtitle">
+                    <?php echo limit_title_charc_carousel(get_the_title()); ?>
+                </h2>
+            </div>
 
-    <div class="item">
-        <?php if ( has_post_thumbnail() ) {
-            the_post_thumbnail('home-carousel-right', array('class' => '')) ;
-            } else { ?>
-            <img src="" alt="" title=""/>
-        <?php } ?>
-        <h2 class="subtitle">
-            <?php echo limit_title_charc_carousel(get_the_title()); ?>
-        </h2>
-
-    </div>
+        </a>
+        </div>
     <?php endwhile; else : ?>
     <?php endif; ?>
 </div>

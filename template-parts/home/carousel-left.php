@@ -6,16 +6,21 @@
       while (have_posts()) : 
       the_post();
     ?>
+
     <div class="carousel-item <?php $c++; if($c == 1) { echo 'active'; } ?>">
-      <div class="carousel-content">
-        <?php if ( has_post_thumbnail() ) {
-          the_post_thumbnail('home-carousel-left', array('class' => '')) ;
-        } else { ?>
-          <img src="" alt="" title=""/>
-        <?php } ?>
-        <h2 class="title">
-          <?php echo limit_title_charc_carousel(get_the_title()); ?>        
-        </h2>
+      <div class="carousel-content">        
+        <a href="<?php the_permalink() ?>">        
+          <?php if ( has_post_thumbnail() ) {
+            the_post_thumbnail('home-carousel-left', array('class' => '')) ;
+          } else { ?>
+            <img src="" alt="" title=""/>
+          <?php } ?>
+          <div class="carousel-back">
+            <h2 class="title">
+              <?php echo limit_title_charc_carousel(get_the_title()); ?>        
+            </h2>
+          </div>
+        </a>
       </div>
     </div>
     <?php endwhile; else : ?>

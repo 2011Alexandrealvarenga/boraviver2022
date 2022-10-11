@@ -20,16 +20,18 @@ $destaque = array(
       $my_query_destaque->the_post(); 
     ?>
     <div class="col-md-3">
-      <div class="item">
-        <?php if ( has_post_thumbnail() ) {
-          the_post_thumbnail('highlight-post', array('class' => '')) ;
-          } else { ?>
-          <img src="" alt="" title=""/>
-        <?php } ?>
-        <h2 class="subtitle">
-          <?php the_title(); ?>
-        </h2>
-      </div>
+      <a href="<?php the_permalink() ?>">          
+        <div class="item">
+          <?php if ( has_post_thumbnail() ) {
+            the_post_thumbnail('highlight-post', array('class' => '')) ;
+            } else { ?>
+            <img src="" alt="" title=""/>
+          <?php } ?>
+          <div class="carousel-back">
+              <h2 class="subtitle"><?php echo limit_title_charc_carousel(get_the_title()); ?></h2>
+            </div>
+          </div>
+      </a>
     </div>
     <?php endwhile; else : ?>
     <?php endif; ?>
