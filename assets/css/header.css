@@ -1,4 +1,4 @@
-.acessibilidade{background-color:#efefef;}
+.acessibilidade{background-color:#034f84;}
 .acessibilidade .listas{display: flex; justify-content: space-between;}
 .acessibilidade .listas ul{padding:0px;} 
 .acessibilidade .listas .itens-acessibilidade,
@@ -10,22 +10,27 @@
 .acessibilidade .listas .itens-acessibilidade li a{font-size:11px;color:#5b5b5b;font-family:Roboto;font-weight:500;letter-spacing:.4px}
 .acessibilidade .listas .itens-acessibilidade .ic-handtalk,
 .acessibilidade .listas .itens-acessibilidade .ic-contraste{cursor: pointer;}
-.acessibilidade .listas .ir-para li a{font-size:11px;color:#5b5b5b;font-weight:500;margin-left:16px;text-decoration:underline}
+.acessibilidade .listas .ir-para li a{font-size:11px;color:#fff!important;font-weight:500;margin-left:16px;text-decoration:underline}
 .acessibilidade .listas .ir-para{display: flex; align-items: center;}  
 .acessibilidade .listas .itens-acessibilidade li.btn-fonts {background-color: white;border-radius: 8px;height: 28px;margin-right: 10px;}
 .acessibilidade .listas .itens-acessibilidade li.btn-fonts button {background: transparent}
 .acessibilidade .listas .itens-acessibilidade li.btn-fonts button:first-child{border-radius: 0;background: transparent;}
 
 .acessibilidade .listas .itens-acessibilidade li a.btn-constrast{
-
-    margin: 6px;
+    margin: 4px 4px 4px 0;
     justify-content: center;
     display: flex;
-    /* border: 1px solid red; */
     border-radius: 8px;
     background: #fff;
 }
-
+.boravivermenu .navbar .collapse ul li {
+    background: #f7786b;
+    border-radius: 4px;
+    margin-right: 4px;
+}
+.boravivermenu .navbar .collapse ul li a.nav-link {
+    color: #fff!important;
+}
 @media (max-width: 768px){
     .acessibilidade .listas{width: 100%;}
     .acessibilidade .listas .ir-para {display: none;}
@@ -35,5 +40,5 @@
     .acessibilidade .listas .itens-acessibilidade .item-acessibilidade {display: none;}
 }
 .boravivermenu {
-    background: #efefef;
+    background: #92a8d1;
 }

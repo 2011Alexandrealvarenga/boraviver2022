@@ -1,10 +1,7 @@
 <section class="acessibilidade">
     <div class="container">
         <div class="listas">
-            <ul class="itens-acessibilidade">
-                <li class="item-acessibilidade">
-                    <a href="'. get_page_link( get_page_by_path('acessibilidade')).'" title="Ir para Acessibilidade" alt="acessibilidade">ACESSIBILIDADE</a>
-                </li>
+            <ul class="itens-acessibilidade">                
                 <li class="item-contraste">
                     <a href="javascript:void(5);" id="btn-increase" title="Ativar Contraste" class="btn-constrast"  alt="Contraste">
                         <img width="40px" height="28px" src="<?php echo get_template_directory_uri();?>/assets/img/a+.svg" class="ic-contraste" alt="Botão Contraste" title="Ativar Contraste"></a>
@@ -18,7 +15,7 @@
                 </li>
             </ul>
             <ul class="ir-para">
-                <li class="ir">IR PARA:</li>
+                <!-- <li class="ir">IR PARA:</li> -->
                 <li class="item-link-menu">
                     <a href="javascript:void(2);" accesskey="1" title="Acesso para Menu" alt="Acesso para menu">MENU [1]</a>
                 </li>
