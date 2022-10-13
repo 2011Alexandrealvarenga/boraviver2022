@@ -1,20 +1,40 @@
+/* inicio - banner image */
+.banner-imagem {
+    background-image: url('http://localhost:8080/WP/boraviver/wp-content/uploads/2022/10/very-high-resolution-mountain-landscape-photo-l.jpg');
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.banner-imagem .bg-content {
+    background-color: rgba(0,0,0,0.24);
+}
+.banner-imagem .bg-content .content{
+    display: flex;
+    align-items: center;
+    height: 240px;
+}
+.banner-imagem .bg-content .content .title {
+    color: #fff;
+    font-size: 32px;
+}
+/* fim - banner image */
+
 /* carousel home esquerda */
-.carousel-banner{
+.banner-carousel .carousel-banner{
     display: flex;
 }
-.carousel-left{
+.banner-carousel .carousel-left{
     width: 50%;
 }
-.carousel .carousel-inner .carousel-item{
+.banner-carousel .carousel .carousel-inner .carousel-item{
     height: 360px;
 }
-.carousel .carousel-inner .carousel-item .carousel-content img {
+.banner-carousel .carousel .carousel-inner .carousel-item .carousel-content img {
     width: 100%;
     height: 360px;
     object-fit: cover;
 }
-.carousel .carousel-inner .carousel-item .carousel-content h2.title{
-    /* position: absolute; */
+.banner-carousel .carousel .carousel-inner .carousel-item .carousel-content h2.title{
     bottom: 0;
     left: 0;
     color: #fff;
