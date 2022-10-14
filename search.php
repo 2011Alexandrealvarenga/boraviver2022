@@ -14,7 +14,10 @@
                         <?php if('post' == get_post_type()) :?>
                             <?php get_template_part('template-parts/more-posts') ;?>                        
                         <?php endif; ?>
-                    <?php endwhile; else : ?>
+                    <?php endwhile; ?> 
+                        <?php get_template_part('template-parts/pagination') ;?> 
+                    
+                    <?php else : ?>
                         <p>Não ha dados para ser exibido</p>
                     <?php endif; ?>
 

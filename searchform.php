@@ -3,7 +3,7 @@
     <div>
         <label class="screen-reader-text" for="s">Pesquisar por:</label>
         <input type="text" value="" name="s" id="s">
-        <input type="submit" id="searchsubmit" value="Pesquisar asdf">
+        <input type="submit" id="searchsubmit" value="Pesquisar">
         <input type="hidden" value="post" name="post_type" id="post_type">
 
     </div>

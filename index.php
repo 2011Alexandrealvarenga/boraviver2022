@@ -47,14 +47,17 @@
                         $my_query_banner = new WP_Query ( $my_args_banner );
                     ?>
                     
-                        <?php if( $my_query_banner->have_posts()) :     
-                            while( $my_query_banner->have_posts() ) : 
-                            $my_query_banner->the_post(); 
-                        ?>
-                            <?php get_template_part('template-parts/more-posts') ;?>                        
-                        <?php endwhile; else:?>
-                            <p>Não ha dados para ser exibido</p>
-                        <?php endif; ?>
+                    <?php if( $my_query_banner->have_posts()) :     
+                        while( $my_query_banner->have_posts() ) : 
+                        $my_query_banner->the_post(); 
+                    ?>
+                        <?php get_template_part('template-parts/more-posts') ;?>                        
+                        <?php endwhile; ?> 
+                    <?php get_template_part('template-parts/pagination') ;?> 
+                
+                    <?php else : ?>
+                        <p>Não ha dados para ser exibido</p>
+                    <?php endif; ?>
                    
                 </div>
                 <div class="col-3">

@@ -17,6 +17,7 @@ hr.line {
 img{border-radius: 2px!important;}
 a{color: #000!important;}
 
+
 /* inicio - last post */
 .resume-post .img-post {
     height: 180px;
@@ -88,3 +89,15 @@ a{color: #000!important;}
     margin: 0;
 }
 /* fim - sidebar */
+/* inicio - pagination */
+.boraviver-pagination {
+    display: flex;
+    justify-content: space-between;
+}
+.boraviver-pagination a {
+    background: #034f84;
+    color: #fff!important;
+    border-radius: 4px;
+    padding: 4px 8px;
+}
+/* fim - pagination */
