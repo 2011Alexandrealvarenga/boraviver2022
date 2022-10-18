@@ -1,7 +1,7 @@
 
 
     <?php if(is_active_sidebar('sidebar-blog')): ?>
-        <aside class="sidebar">
+        <aside >
             <?php dynamic_sidebar('sidebar-blog'); ?>
         </aside>
     <?php endif; ?>

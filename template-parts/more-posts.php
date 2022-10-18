@@ -1,14 +1,14 @@
-<div class="row resume-post">
-    <div class="col-4">
+<div class="resume-post-content pt-1">
+    <div class="col-md-4  pad-0">
         <a href="<?php the_permalink();?>">
             <?php if ( has_post_thumbnail() ) {
             the_post_thumbnail('home-more-post', array('class' => '')) ;
             } else { ?>
-            <img src="" alt="" title=""/>
+            <img class="" src="" alt="" title=""/>
             <?php } ?>
         </a>
     </div>
-    <div class="col-8">
+    <div class="col-md-8 pad-0">
         <div class="content">
             
             <h3 class="h3title">

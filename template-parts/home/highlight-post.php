@@ -14,7 +14,7 @@ $destaque = array(
     <h2 class="subtitle">Destaques</h2>
   </div>
 </div>
-<div class="row">
+<div class="row pt-1">
     <?php if( $my_query_destaque->have_posts()) : 
       while( $my_query_destaque->have_posts() ) : 
       $my_query_destaque->the_post(); 
