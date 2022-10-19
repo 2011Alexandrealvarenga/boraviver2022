@@ -2,7 +2,7 @@
 <section class="single">
     <div class="container">
         <div class="row mt-5">
-            <div class="col-9">
+            <div class="col-sm-12 col-md-9">
                 <hr class="line">
                 <h2 class="subtitle mb-2">Resultado da busca: <?php echo get_search_query(); ?></h2> 
                 <?php get_search_form(); ?>
@@ -29,7 +29,7 @@
 
 
             </div>
-            <div class="col-3">
+            <div class="col-3 sidebar">
                 <?php get_sidebar(); ?>
             </div>
         </div>

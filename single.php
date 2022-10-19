@@ -2,7 +2,7 @@
 <section class="single">
     <div class="container">
         <div class="row mt-4">
-            <div class="col-9">
+            <div class="col-sm-12 col-md-9">
                 <div class="content-img">
                     <?php if ( has_post_thumbnail() ) {
                             the_post_thumbnail('single-post', array('class' => '')) ;
@@ -61,7 +61,7 @@
                 </div>
 
             </div>
-            <div class="col-3">
+            <div class="col-3 sidebar">
                 <?php get_sidebar(); ?>
             </div>
         </div>
