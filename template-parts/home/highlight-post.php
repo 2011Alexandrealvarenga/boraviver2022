@@ -25,7 +25,7 @@ $destaque = array(
           <?php if ( has_post_thumbnail() ) {
             the_post_thumbnail('highlight-post', array('class' => '')) ;
             } else { ?>
-            <img src="" alt="" title=""/>
+            <?php get_template_part('template-parts/thumb-default') ;?>
           <?php } ?>
           <div class="carousel-back">
               <h2 class="subtitle"><?php echo limit_title_charc_carousel(get_the_title()); ?></h2>

@@ -60,6 +60,9 @@
   margin-top: 4px;
   color: #000;
 }
+.single .comments {
+  display: none;
+}
 /* fim related post */
 
 /* comentarios */
@@ -83,7 +86,5 @@
   .single .content-img .subtitle {
     font-size: 28px;
   }
-  .single .comments {
-    display: none;
-  }
+
 }

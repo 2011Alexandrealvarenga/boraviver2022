@@ -16,7 +16,7 @@ $my_args_banner = array(
             <?php if ( has_post_thumbnail() ) {
                 the_post_thumbnail('home-carousel-right', array('class' => '')) ;
                 } else { ?>
-                <img src="" alt="" title=""/>
+                <?php get_template_part('template-parts/thumb-default') ;?>
             <?php } ?>
             <div class="carousel-back">
                 <h2 class="subtitle">

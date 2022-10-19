@@ -7,7 +7,7 @@
                     <?php if ( has_post_thumbnail() ) {
                             the_post_thumbnail('single-post', array('class' => '')) ;
                         } else { ?>
-                        <img src="" alt="" title=""/>
+                        <?php get_template_part('template-parts/thumb-default') ;?>
                     <?php } ?>
                     <hr class="line mt-4">
                     <h2 class="subtitle">

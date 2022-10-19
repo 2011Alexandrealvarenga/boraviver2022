@@ -4,7 +4,7 @@
             <?php if ( has_post_thumbnail() ) {
             the_post_thumbnail('home-more-post', array('class' => '')) ;
             } else { ?>
-            <img class="" src="" alt="" title=""/>
+            <?php get_template_part('template-parts/thumb-default') ;?>
             <?php } ?>
         </a>
     </div>
