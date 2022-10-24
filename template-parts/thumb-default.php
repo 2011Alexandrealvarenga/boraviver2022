@@ -1,1 +1,1 @@
-<img src="https://www.boraviver.space/wp-content/uploads/2022/10/pexels-steve-johnson-963056-1-scaled.jpg" alt="" title=""/>
+<img src="https://www.boraviver.space/wp-content/uploads/2022/10/pexels-steve-johnson-963056-1-scaled.jpg" class="without-thumb" alt="" title=""/>

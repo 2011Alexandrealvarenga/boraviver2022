@@ -75,6 +75,11 @@
 .category-highlight .item {
     position: relative;
 }
+.category-highlight .item .without-thumb {
+    width: 255px;
+    height: 156px;
+    object-fit: cover;
+}
 .category-highlight .item h2.subtitle {
     bottom: 0;
     margin: 0;

@@ -60,6 +60,11 @@ a{color: #000;}
 .resume-post .resume-post-content .pad-0{
     padding: 0;
 }
+.resume-post .resume-post-content .without-thumb {
+    width: 256px;
+    height: 171px;
+    object-fit: cover;
+}
 
 
 .category .post-categories {
