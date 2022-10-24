@@ -8,6 +8,7 @@
     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
     })(window,document,'script','dataLayer','GTM-TWMK2QJ');</script>
     <!-- End Google Tag Manager -->
+    <title>Bora Viver</title>
     <meta charset="<?php bloginfo('charset');?> ">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
