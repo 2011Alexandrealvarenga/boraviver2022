@@ -19,48 +19,48 @@ a{color: #000;}
 
 
 /* inicio - last post */
-.resume-post .img-post {
+.resume-post-content .img-post {
     height: 180px;
     object-fit: cover;
     width: 100%;
 }
 
-.resume-post .content h3.h3title {
+.resume-post-content .content h3.h3title {
     font-size: 20px;
 } 
-.resume-post .content .creator .description,
-.resume-post .content .creator .category,
-.resume-post .content .creator .date,
-.resume-post .content .creator .author {
+.resume-post-content .content .creator .description,
+.resume-post-content .content .creator .category,
+.resume-post-content .content .creator .date,
+.resume-post-content .content .creator .author {
     font-size: 14px;
 }
-.resume-post .content .creator .category,
-.resume-post .content .creator .date,
-.resume-post .content .creator .author {
+.resume-post-content .content .creator .category,
+.resume-post-content .content .creator .date,
+.resume-post-content .content .creator .author {
     margin-right: 16px;
 }
 
-.resume-post .content .description{
+.resume-post-content .content .description{
     position: absolute;
     bottom: 0;
 }
-.resume-post .resume-post-content {
+.resume-post-content {
     display: flex;
 }
-.resume-post .content .creator .category,
+.resume-post-content .content .creator .category,
 .single .creator .category
 {
     display: flex;
 }
-.resume-post .content .creator .category b,
+.resume-post-content .content .creator .category b,
 .single .creator .category b
 {
     margin-right: 8px;
 }
-.resume-post .resume-post-content .pad-0{
+.resume-post-content .pad-0{
     padding: 0;
 }
-.resume-post .resume-post-content .without-thumb {
+.resume-post-content .without-thumb {
     width: 256px;
     height: 171px;
     object-fit: cover;
@@ -74,7 +74,7 @@ a{color: #000;}
     display: flex;
 }
 .category .post-categories li{
-    margin-right: 8px;
+    margin: 0 8px;
 }
 /* fim - last post */
 /* inicio - sidebar */
