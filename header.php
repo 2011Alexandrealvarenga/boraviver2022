@@ -16,6 +16,14 @@
     <?php wp_head(); ?>
 </head>
 <body <?php body_class();?>>
+	<!-- libras inicio -->
+    <div vw class="enabled">
+			<div vw-access-button class="active"></div>
+			<div vw-plugin-wrapper>
+				<div class="vw-plugin-top-wrapper"></div>
+			</div>
+		</div>
+	<!-- libras fim -->
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TWMK2QJ"
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
