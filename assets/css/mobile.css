@@ -1,4 +1,10 @@
-@media (max-width: 425px){
+@media (max-width: 576px){
+    .banner-carousel .carousel-left {
+        width: 100%!important;
+    }
+    .banner-carousel .carousel-right {
+        display: none;
+    }
     /* banner */
     .banner-imagem .bg-content .content {
         height: 160px!important;
@@ -12,12 +18,10 @@
     .banner-carousel .carousel .carousel-inner .carousel-item {
         height: 280px;
     }
-    .banner-carousel .carousel-left {
-        width: 100%!important;
+    .content-img img{
+        width: 100%;
     }
-    .banner-carousel .carousel-right {
-        display: none;
-    }
+
 
     .category-highlight .item {
         margin-bottom: 8px;
@@ -44,4 +48,7 @@
         position: inherit;
         margin-top: 8px;
     }
+}
+@media (max-width: 425px){
+
 }
