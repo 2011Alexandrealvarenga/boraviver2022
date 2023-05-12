@@ -1,4 +1,4 @@
-.acessibilidade{background-color:#034f84;}
+.acessibilidade{background-color:#023047;}
 .acessibilidade .listas{display: flex; justify-content: space-between;}
 .acessibilidade .listas ul{padding:0px;} 
 .acessibilidade .listas .itens-acessibilidade,
@@ -24,13 +24,16 @@
     background: #fff;
 }
 .boravivermenu .navbar .collapse ul li {
-    background: #f7786b;
+    /* background: #f7786b; */
     border-radius: 4px;
     margin-right: 4px;
 }
 .boravivermenu .navbar .collapse ul li a.nav-link {
-    color: #fff!important;
+    color: #000!important;
+    font-weight: bold;
 }
+.boravivermenu .navbar { padding: 0.5rem 0!important;}
+.boravivermenu ul.nav li a span {text-transform: uppercase;}
 @media (max-width: 768px){
     .acessibilidade .listas{width: 100%;}
     .acessibilidade .listas .ir-para {display: none;}
@@ -40,5 +43,5 @@
     .acessibilidade .listas .itens-acessibilidade .item-acessibilidade {display: none;}
 }
 .boravivermenu {
-    background: #f7786b;
+    background: #ffb703;
 }
