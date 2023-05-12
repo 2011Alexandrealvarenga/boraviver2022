@@ -1,10 +1,15 @@
 /* inicio - banner image */
-.banner-imagem {
-    background-image: url('https://www.boraviver.space/wp-content/uploads/2022/10/panoramic-view-mountain-landscape-20265708.jpg');
+.banner-imagem{
+    background-image: url('https://www.boraviver.space/wp-content/uploads/2023/05/bora-viver-landscape-v4.jpg');
     object-fit: cover;
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
+    width: 100%;
+    overflow: hidden;
+    background-attachment: fixed;
 }
+
 .banner-imagem .bg-content {
     background-color: rgba(0,0,0,0.24);
 }
