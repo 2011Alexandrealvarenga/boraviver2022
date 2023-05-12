@@ -114,3 +114,8 @@ a{color: #000;}
 }
 /* fim - pagination */
 
+/* inicio - busca */
+form #searchsubmit img {
+    width: 16px;
+}
+/* fim - busca */
