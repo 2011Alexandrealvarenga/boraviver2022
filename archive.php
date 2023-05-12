@@ -1,7 +1,7 @@
 <?php get_header();?>
     <section class="resume-post">
         <div class="container">
-            <div class="row">
+            <div class="row mt-5">
                 <div class="col-sm-12 col-md-9">
                     <hr class="line">
                     <h2 class="subtitle">Mais Notícias</h2>                    

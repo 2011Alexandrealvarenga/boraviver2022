@@ -30,7 +30,7 @@
 }
 .boravivermenu .navbar .collapse ul li a.nav-link {
     color: #000!important;
-    font-weight: bold;
+    font-weight: 600;
 }
 .boravivermenu .navbar { padding: 0.5rem 0!important;}
 .boravivermenu ul.nav li a span {text-transform: uppercase;}

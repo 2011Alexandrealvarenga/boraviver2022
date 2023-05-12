@@ -75,7 +75,7 @@
 /* categoria inicio highlight  */
 .category-highlight {
     display: flex;
-    margin: 32px;
+    margin: 48px 0;
 }
 .category-highlight .item {
     position: relative;
